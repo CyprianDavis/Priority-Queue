@@ -1,11 +1,8 @@
 package data.structure;
 
 import java.util.Comparator;
-import java.util.LinkedList;
-
 import positionalList.LinkedPositionalList;
 import positionalList.Position;
-
 /**
  * 
  * @author CYPRIAN DAVIS
@@ -13,7 +10,6 @@ import positionalList.Position;
  * @param <K>
  * @param <V>
  */
-
 public class LinkedPriorityQueue<K,V> extends AbstractPriorityQueue<K,V>{
 	private LinkedPositionalList<Entry<K,V>>entries = new LinkedPositionalList<>();
 	public LinkedPriorityQueue() {
